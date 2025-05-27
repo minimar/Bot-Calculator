@@ -14,7 +14,7 @@ public void OnMapStart()
     IntToString(GetEntityCount(),entities,100);
     PrintToServer("Entity Count: %s", entities);
     int remEntities = 2048 - GetEntityCount();
-    const int entitiesPerPlayer = 15;
+    const int entitiesPerPlayer = 20;
     int botCount = (remEntities - 40) / entitiesPerPlayer;
     if (botCount > 99)
     {
